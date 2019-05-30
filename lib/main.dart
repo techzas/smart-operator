@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:smart_operator/pages/viewoperationlog.dart';
 import 'package:smart_operator/pages/notification_page.dart';
-
 import 'myhome_page.dart';
 
 
@@ -14,8 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: NotificationPage(),
+      home: MyHomePage(),
     );
   }
 }
-
