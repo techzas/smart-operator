@@ -52,7 +52,7 @@ class HomeLogBook extends StatelessWidget {
                     ],
                   ),
                   onTap: () {
-                    //print('คุณกดหมายเลข ' + contact.name.first.toString());
+                
                   },
                 );
               },
