@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:smart_operator/pages/create_logbook.dart';
 
 void main() => runApp(MyApp());
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: CreateLogBook(),
     );
   }
 }
