@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/rendering.dart';
+import 'package:smart_operator/pages/home_page.dart';
 import 'package:smart_operator/signin_button.dart';
 import 'package:smart_operator/teddy_controller.dart';
 import 'package:smart_operator/tracking_text_input.dart';
@@ -109,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       _teddyController.submitPassword();
                                       Navigator.push(context, MaterialPageRoute(
                                           builder: (BuildContext context) {
-                                        return DetailPage();
+                                        return HomeLogBook();
                                       }));
                                     })
                               ],
